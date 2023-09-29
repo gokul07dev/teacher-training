@@ -1,0 +1,383 @@
+.nav-head {
+    font-size: 20px !important;
+    font-weight: 900 !important;
+
+}
+
+.nav-bot {
+    font-size: 14px;
+    font-weight: 900;
+    padding-top: 4px !important;
+    /* margin-left: 10px; */
+}
+
+.box {
+    height: 42px;
+    min-width: 130px;
+    background: #149AC5;
+
+}
+
+.nav-icon {
+    background-color: #149AC5;
+    color: white !important;
+}
+
+.box1 {
+    min-width: 180px;
+    height: 42px;
+    background: #149AC5;
+
+}
+
+.section1 {
+    background-image: url(../Image/Home-img/supply-teachers-1280x853.png);
+    background-repeat: no-repeat;
+    color: #FFFFFF !important;
+    background-size: cover;
+    background-position: center;
+}
+
+.box2 {
+    max-width: 184px;
+    height: 46px;
+    background: #149AC5;
+
+}
+.about-head{
+    font-weight: 900 !important;
+    font-size: large !important;
+}
+
+.box2 p {
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    padding-top: 14px !important;
+}
+
+.academy-head .box2 {
+    padding: 0 1rem !important;
+}
+
+.sec-whole {
+    min-height: 55rem;
+
+}
+
+
+a {
+    color: white !important;
+}
+
+
+/* section 3 */
+.section3 {
+    min-height: 37rem;
+    background: #045266;
+
+}
+
+
+
+
+/* <!-- Teaching tech --> */
+.section4 {
+    min-height: 23rem;
+
+}
+
+.tech-center {
+    padding-top: 10rem;
+}
+
+.teach {
+    margin: 0 7rem;
+    min-height: 26rem;
+}
+
+.box-shod {
+    box-shadow: 0px 4px 4px 0px #00000040;
+    /* width: 23rem; */
+    padding: 20px 0 10px 25px;
+}
+
+.Start {
+    background: #149AC5;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 13px 40px;
+}
+
+.tech-colo {
+    font-size: 25px !important;
+    color: #007991;
+
+}
+
+.box2 p {
+    color: white;
+}
+
+/* Academy */
+.rowCard {
+    box-shadow: 0px 10px 10px 0px #6D6E7133;
+    min-height: 14rem;
+    margin: 0 6rem;
+}
+
+
+.academy-head {
+    color: #007991;
+    font-size: 30px !important;
+}
+
+/*<!-- Graduates --> */
+
+/* .Courses h5{
+    width: 48%;
+} */
+
+/* Why Choose Us? */
+.section6 {
+    min-height: 48rem;
+    background: #045266;
+
+}
+
+.Courses {
+    padding: 7rem 0;
+}
+
+.choose-us {
+    margin: 5rem 0;
+}
+
+/* Testimonials */
+.section7 {
+    min-height: 35rem;
+}
+
+.fac-font {
+    font-size: 20px;
+    font-weight: 700 !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.test-font {
+    font-weight: 700 !important;
+    font-size: 30px !important;
+}
+
+.Testimonials-color {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif !important;
+    color: #149AC5;
+
+}
+
+/* <!--training journey -->*/
+
+.section8 {
+    min-height: 50rem;
+    background-image: url(../Image/Home-img/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.absolute-image {
+    width: 60%;
+}
+
+.join {
+    height: 3rem;
+    max-width: 12rem;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    text-wrap: nowrap;
+}
+
+.join h6 {
+    font-weight: 700 !important;
+}
+
+.journey {
+    height: 30rem;
+    margin: 9rem 0 0 0;
+    color: white;
+}
+
+.bot {
+    background-color: white;
+    color: #149AC5;
+    ;
+}
+
+.section7 {
+    margin: 0 6rem !important;
+}
+
+/* Footer */
+.footer {
+    min-height: 38rem;
+    background: #045266;
+    padding: 60px 0;
+}
+
+.whole-footer {
+    margin: 0 6rem;
+    display: flex;
+    align-items: center;
+    min-height: 35rem;
+}
+
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #149AC5;
+    padding: 11px 0px 10px 15px;
+    margin-top: 20px;
+}
+
+.here-what h5 {
+    width: 76%;
+}
+
+.list li {
+    list-style-type: none;
+    margin: 30px 0;
+}
+
+.about-list li {
+    list-style-type: none;
+    margin: 20px 0;
+
+}
+
+ul li {
+
+    font-family: 'Ubuntu', sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+    line-height: 24px;
+    /* line-height: 24px !important; */
+
+}
+
+.foot-head {
+    font-size: 27px !important;
+    font-weight: 700 !important;
+    font-family: 'Inter', sans-serif !important;
+
+}
+.box21{
+    background-color: #149AC5;
+    color: white;
+    padding: 0.1rem 1rem;
+}
+
+.testimonials{
+    width: 60%;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+@media (max-width:1400px) and (min-width:992px) {
+    .rowCard {
+
+        margin: 0 0rem;
+
+    }
+    
+}
+@media (max-width:576px) {
+
+    .whole-footer {
+        margin: 0 2rem;
+        display: flex;
+        align-items: center;
+        min-height: 35rem;
+    }
+
+}
+
+@media (max-width:768px) {
+    .Courses {
+        padding: 4rem 0;
+    }
+    .testimonials{
+        width: 100%;
+    }
+    .academic-full{
+        margin-top: 40px;
+    }
+   .graded-head{
+    font-size: 30px !important;
+   }
+    .journey {
+        text-align: start !important;
+        padding: 0 2rem;
+    }
+
+    .teach {
+        margin: 0 1rem;
+    }
+
+    .rowCard {
+
+        margin: 0 0.2rem;
+    }
+
+    .academy-head {
+        font-size: 27px !important;
+    }
+
+    .absolute-image {
+        bottom: 0 !important;
+        /* right: 0 !important; */
+        left: none !important;
+        width: 100%;
+        height: 40%;
+    }
+
+    .teach h3,
+    .teach h5 {
+        width: 50%;
+    }
+
+    .section7 {
+        margin: 0 2rem !important;
+    }
+
+    .Courses .d-flex h5 {
+        width: 100% !important;
+    }
+   
+}
+
+@media (max-width:600px) {
+    .absolute-image {
+        width: 100% !important;
+        height: none !important;
+    }
+}
+
+@media (max-width:450px) {
+
+    .teach h3,
+    .teach h5 {
+        width: 100%;
+    }
+   
+}

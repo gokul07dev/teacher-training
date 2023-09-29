@@ -1,0 +1,15 @@
+.about{
+    background-image: url(../Image/about-us-img/supply-teachers-1280x853.png) !important;
+    background-position: 70% !important;
+}
+.mission{
+    margin: 8rem 3rem;
+}
+@media (max-width:576px) {
+    .who-we{
+        width: 100% !important;
+    }
+    .mission{
+        margin: 1rem 1rem;
+    }
+}

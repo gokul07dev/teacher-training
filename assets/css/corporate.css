@@ -1,0 +1,107 @@
+.corporate {
+    background-image: url(../Image/corporate-img/supply-teachers-1280x853.png);
+}
+
+.topic {
+    margin: 9rem 6rem;
+}
+
+.topic-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 60px;
+}
+
+.grid-top-list h5 span {
+    color: #149AC5;
+}
+
+.grid-top-list h5 {
+    font-size: 18px !important;
+}
+
+/* <!-- CORPORATE TRAINING METHODS --> */
+
+
+
+
+.method-backcolor{
+    background: #045266;
+/* min-height: 700px; */
+padding: 0.1rem 0;
+}
+.trainees-method{
+    color: white;
+}
+
+.border-boxss{
+    border: 1px solid white;
+    padding: 15px 40px;
+    
+}
+.method-grid{
+    display: inline-flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+  
+    
+}
+
+.backcol{
+    background-color: white !important;
+   
+}
+
+.trainees-method2{
+    color: black;
+}
+
+.method-grid .border-boxss2{
+    border: 1px solid black;
+    padding: 15px 40px;
+}
+
+
+
+
+
+@media (max-width:992px) {
+    .topic-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 60px;
+        row-gap: 20px;
+
+    }
+    .topic {
+        margin: 9rem 3rem;
+    }
+}
+
+@media (max-width:767px) {
+    .topic-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+
+    .grid-top-list img {
+        width: 50% !important;
+    }
+    .topic {
+        margin: 4rem 2rem;
+    }
+    
+    
+}
+@media (max-width:450px) {
+    .grid-top-list h5 {
+        font-size: 14px !important;
+    }
+    .topic h3{
+        font-family: 'Gilda Display', serif !important;
+        font-size: 22px !important;
+        font-weight: 600 !important;
+    }
+    
+}

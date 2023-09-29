@@ -1,0 +1,13 @@
+.admissions {
+    margin: 4rem 6rem;
+}
+@media (max-width:786px) {
+    .admissions {
+        margin: 4rem 3rem !important;
+    }
+}
+@media (max-width:450px) {
+    .admissions {
+        margin: 4rem 1rem !important;
+    }
+}

@@ -1,0 +1,82 @@
+.career{
+    background-image: url(../Image/careers-inner-img/supply-teachers-1280x853.png) !important;
+    background-position: 35%;
+}
+
+.career-button{
+    border-radius: 8px;
+    /* padding-top: 12px; */
+}
+
+.tech-img{
+    margin: 6rem 0 ;
+}
+
+
+.tech-card{
+    background-color: #F9F9F9;
+    min-height: 1099px;
+}
+
+.job-icon{
+    line-height: 24px !important;
+}
+
+.job .common-tech{
+    margin: 4rem 0;
+    
+}
+.job{
+    padding: 0 2rem;
+}
+.common-tech span{
+    border-bottom: 1px solid black;
+}
+
+.tech-prof-font li p{
+    font-size: 16px !important;
+    line-height: 18px !important;
+}
+.tech-prof-font p{
+    font-size: 16px !important;
+    line-height: 40px !important;
+
+}
+
+.tech-border{
+    border-bottom: 1px solid black;
+    
+}
+.last-btn{
+    margin: 7rem 0;
+}
+
+/* Social media */
+
+.icon-list{
+    width: 54px;
+    height:  54px;
+    background: #3C5A99;
+    border-radius: 40px;
+    padding: 11px 17px;
+
+}
+.twitter{
+    padding: 13px 12px;
+    background: #55ACEE;
+}
+.linkedin{
+    padding: 11px 13px;
+    background: #007AB9;
+}
+.insta{
+    padding: 11px 12px;
+    background: #BB346C;
+
+}
+@media (max-width:500px) {
+    .career{
+        background-image: url(../Image/careers-inner-img/background.png) !important;
+        
+    }
+}

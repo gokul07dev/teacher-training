@@ -1,0 +1,163 @@
+.course-details-head{
+    margin-bottom: 7rem;
+}
+.cour-detail-backimg{
+    background-image: url(../Image/course-details-img/supply-teachers-1280x853.png);
+    background-position: 15%;
+}
+.tab-height{
+    margin: 4rem 3rem;
+}
+.list .list-contant{
+    padding: 50px 35px;
+}
+
+
+
+/* nav-tab */
+
+.border-nav{
+    padding-top: 15px;
+    border-top: 1px solid black;
+}
+.border-nav:hover{
+color:  #149AC5 !important;
+border-top: 1px solid #149AC5;
+}
+.nav-lists p{
+    color: black;
+    font-family: 'Gilda Display', serif !important;
+font-size: 18px !important;
+font-weight: 400 !important;
+}
+
+/*  accordion */
+.button-accord{
+    background: #045266;
+    color: white;
+    border-radius: 8px;
+}
+.acc-btn:not(.collapsed) {
+    background-color: white !important;
+    border-bottom: none !important;
+}
+.def-acc{
+    --bs-accordion-border-width: none !important;
+    
+
+}
+.items{
+    box-shadow: 7.761568546295166px 7.761568546295166px 24px 0px #00000040;
+
+}
+.border-blue{
+    /* padding-bottom: 15px; */
+    width: 100px;
+    margin-left: 20px;
+    border-top: 3px solid #149AC5;
+}
+.acc-btn:not(.collapsed)::after {
+    background-image: url(../Image/course-details-img/Vector\ 36\ \(1\).svg);
+    transform: var(--bs-accordion-btn-icon-transform);
+    height: 30px;
+    width: 30px;
+    background-color: #149AC5;
+    border-radius: 50%;
+    background-position: center;
+    padding-bottom: 15px;
+    /* margin-top: 50px; */
+}
+.acc-btn::after {
+    
+    background-image: url(../Image/course-details-img/Vector\ 36.svg);
+    transform: var(--bs-accordion-btn-icon-transform);
+    height: 30px;
+    width: 30px;
+    background-color: #DBDBDB;
+    ;
+    border-radius: 50%;
+    background-position: center;
+    padding-top: 15px;
+}
+.module{
+   
+border-bottom: 1px solid #149AC5;
+}
+.dashed{
+    width: 15px;
+    /* height: 3px;
+    background-color: black; */
+    border-top: 2px solid black;
+    margin-top: 15px;
+}
+
+
+
+
+/* frequently asked */
+
+
+.asked-container{
+    margin: 4rem 6rem;
+    min-height: 30rem;
+    border-left: 2px solid black;
+}
+#accordionPanelsStayOpenExample{
+
+
+    --bs-accordion-border-width: none !important;
+
+}
+#accordionPanelsStayOpenExample .accordion-item{
+margin: 2rem 0;
+border-bottom: 2px solid  #BCBCBC;
+
+}
+
+
+
+.second-toggle:not(.collapsed) {
+    background-color: white !important;
+    border-bottom: none !important;
+    color: black;
+}
+
+
+@media (max-width:768px){
+    .asked-container{
+        
+        border-left: none;
+    }
+    .tab-height{
+        margin: 4rem 3rem;
+    }
+    .asked-container{
+        margin: 0 2rem;
+
+    }
+}
+@media (max-width:500px){
+    .tab-height{
+        margin: 4rem 1rem;
+    }
+    
+}
+@media (max-width:450px){
+    .asked-container{
+        margin: 0 0.2rem;
+    
+    }
+    
+}
+
+@media (max-width:1358px) {
+    
+    .nav-fill{
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+       
+    }
+    .nav-fill li{
+        text-wrap: nowrap;
+    }
+}

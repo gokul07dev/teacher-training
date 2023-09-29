@@ -1,0 +1,104 @@
+.careers {
+    background-image: url(../Image/careers-img/supply-teachers-1280x853.png) !important;
+}
+
+.benefit {
+    margin: 8rem 4rem;
+}
+
+.ubun {
+    font-size: 14px !important;
+}
+
+.benefit-icon {
+    min-height: 74px;
+    width: 74px;
+    background: #149AC533;
+    border-radius: 4px;
+    padding: 18px;
+}
+
+.icon-benefit h3 {
+    font-size: 18px !important;
+}
+
+.icon-benefit h5 {
+    line-height: 29px !important;
+    width: 75%;
+}
+
+.one {
+    padding: 10px !important;
+    padding-top: 15px !important;
+}
+
+
+/* openings */
+
+.openings{
+    background: #045266;
+    color: white;
+}
+.price{
+    margin: 0 6rem;
+}
+.pri-list li{
+    list-style-type: none;
+    line-height: 50px;
+    
+}
+.price-card{
+    box-shadow: 0px 4px 4px 0px #0000000D;
+background-color: white;
+color: black;
+border-radius: 3px;
+margin-top: 20px;
+margin-bottom: 90px;
+}
+.card-price{
+    min-height: 100px;
+
+}
+
+
+
+
+
+
+@media (max-width:768px){
+    .pri-list li{
+        display: inline;
+        margin:0 10px ;
+        
+    }
+    .openings .text-center{
+        width: 100% !important;
+    }
+    .pri-list{
+        text-align: center;
+    }
+    .benefit {
+        margin: 8rem 2.5rem;
+    }
+    .price {
+        margin: 0 3rem;
+    }
+}
+@media (max-width:450px) {
+    .benefit {
+        margin: 8rem 1rem;
+    }
+    .price {
+        margin: 0 1rem;
+    }
+    .careers {
+        background-image: url(../Image/careers-img/small.png) !important;
+    }
+}
+@media (max-width:576px) {
+    .tech-prof-font .w-75{
+        width: 100% !important;
+    }
+}
+
+

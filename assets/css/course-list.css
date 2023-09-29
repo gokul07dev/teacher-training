@@ -1,0 +1,88 @@
+.list-section1{
+    background-image: url(../Image/course-list-img/supply-teachers-1280x853.png);
+    background-position: 35%;
+}
+.list-nav{
+    min-height: 20rem;
+}
+.list-box2{
+    height: 50px;
+    /* background: #149AC5; */
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    color: black;
+}
+.list-box2:hover{
+    color: white;
+        background: #149AC5;
+
+}
+.list-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 4rem;
+    column-gap: 25px;
+    row-gap: 50px;
+}
+
+
+.list-contant p{
+    font-size: 30px !important;
+    font-weight: 300 !important;
+    font-family: 'Gilda Display', serif !important;
+}
+
+.list-item-grid{
+    background-color: #045266;
+}
+
+.bg-img{
+min-height: 15rem;
+background-image: url(../Image/course-list-img/Rectangle\ 39612.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.bg-img h3{
+    font-size: 25px !important;
+    color: white;
+}
+.list-contant{
+    background: #045266;
+padding: 25px;
+color: white;
+}
+.list-btn{
+    background: #149AC5;
+height: 47px;
+color: white;
+}
+.list-box3{
+    color: white;
+        background: #149AC5;
+}
+
+@media (max-width: 992px){
+    .list-grid{
+        grid-template-columns: 1fr 1fr;
+        margin: 0 1rem;
+    }
+}
+@media (max-width: 768px){
+    .list-grid{
+        grid-template-columns: 1fr ;
+        margin: 0 2rem;
+    }
+}
+
+@media (max-width:1206px) {
+    
+    .list-nav {
+       
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+       
+    }
+    .list-nav .list-box2 p{
+        text-wrap: nowrap;
+    }
+}

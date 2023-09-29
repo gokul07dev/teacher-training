@@ -1,0 +1,33 @@
+.course-section1{
+    background-image: url(../Image/course-img/supply-teachers-1280x853.png);
+background-position: 30%;
+}
+.course-section2{
+    min-height: 25rem;
+    margin: 0 2rem;
+}
+.course-training{
+    padding: 0 0 0 1rem;
+   } 
+
+@media (max-width:768px) {
+    .course-recogniz{
+        margin: 0 2rem;
+    }
+    .assessment{
+        margin: 0 2rem;
+
+    }
+}
+@media (max-width:1024px) and (min-width:768px) {
+   .course-training{
+    padding: 0 1rem;
+    margin-bottom: 1.5rem;
+   } 
+}
+@media  (max-width:767px) {
+    
+    .course-training {
+        padding: 0 0 0 0rem;
+    }
+}
