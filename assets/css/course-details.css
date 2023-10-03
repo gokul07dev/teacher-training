@@ -41,11 +41,24 @@ font-weight: 400 !important;
     background-color: white !important;
     border-bottom: none !important;
 }
+
 .def-acc{
     --bs-accordion-border-width: none !important;
     
 
 }
+
+.acc-btn::after {
+    background-image: url(../Image/course-details-img/Vector\ 36.svg);
+    transform: var(--bs-accordion-btn-icon-transform);
+    height: 30px;
+    width: 30px;
+    background-color: #DBDBDB;
+    border-radius: 50%;
+    background-position: center;
+    padding-top: 15px;
+}
+
 .items{
     box-shadow: 7.761568546295166px 7.761568546295166px 24px 0px #00000040;
 
@@ -57,8 +70,8 @@ font-weight: 400 !important;
     border-top: 3px solid #149AC5;
 }
 .acc-btn:not(.collapsed)::after {
-    background-image: url(../Image/course-details-img/Vector\ 36\ \(1\).svg);
-    transform: var(--bs-accordion-btn-icon-transform);
+    background-image: url(../Image/course-details-img/arrow.svg);
+    transform: var(--bs-accordion-btn-icon-transform) !important;
     height: 30px;
     width: 30px;
     background-color: #149AC5;
@@ -70,7 +83,7 @@ font-weight: 400 !important;
 .acc-btn::after {
     
     background-image: url(../Image/course-details-img/Vector\ 36.svg);
-    transform: var(--bs-accordion-btn-icon-transform);
+    transform: var(--bs-accordion-btn-icon-transform) !important;
     height: 30px;
     width: 30px;
     background-color: #DBDBDB;
@@ -82,6 +95,8 @@ font-weight: 400 !important;
 .module{
    
 border-bottom: 1px solid #149AC5;
+
+text-wrap: nowrap;
 }
 .dashed{
     width: 15px;
@@ -102,7 +117,7 @@ border-bottom: 1px solid #149AC5;
     min-height: 30rem;
     border-left: 2px solid black;
 }
-#accordionPanelsStayOpenExample{
+.asked-container .accordion{
 
 
     --bs-accordion-border-width: none !important;

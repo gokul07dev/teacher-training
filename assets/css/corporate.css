@@ -3,7 +3,7 @@
 }
 
 .topic {
-    margin: 9rem 6rem;
+    margin: 7rem 6rem;
 }
 
 .topic-grid {
@@ -24,7 +24,6 @@
 
 
 
-
 .method-backcolor{
     background: #045266;
 /* min-height: 700px; */
@@ -32,6 +31,7 @@ padding: 0.1rem 0;
 }
 .trainees-method{
     color: white;
+    
 }
 
 .border-boxss{
